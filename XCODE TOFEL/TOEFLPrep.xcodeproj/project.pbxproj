@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F3527846A66B7FDA1116DB /* AuroraBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE5FB136CBBEC0FA9F624B /* AuroraBackground.swift */; };
+		0E39F57513B676BB06FA08DB /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D355D168F8CCC4D6E60052F /* DataStore.swift */; };
+		0EFFEC644A48E2AC173658B0 /* PetalsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099173D084054119967D283 /* PetalsOverlay.swift */; };
+		251DB7183FE72565C7F2E3A6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F089CE9A84A2867AD250B2 /* RootView.swift */; };
+		34363C3798C53FCC67AD6CD3 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25B7466A6446DCE90E033D4 /* Localization.swift */; };
+		38E2B36BD4A9E47AC98AB10B /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFDDABB843B0986BEB7FED8 /* TodayView.swift */; };
+		3E9AECC30C82658171065F16 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4E02AD03D34A8B94A4961 /* LibraryView.swift */; };
+		42E807E4CF80951808F03626 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699B5CADB8D042C7BFC1BBE /* DesignSystem.swift */; };
+		60DDBA01A5D88011E2B29F12 /* TOEFLPrepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B2A90DCE46E897C6C598E /* TOEFLPrepApp.swift */; };
+		66DC48D43C7046E3F2936509 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462215824DDB4F342AF57D74 /* Speech.swift */; };
+		68C4C4416847F002F02BE391 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CC2DE7AB186AC8AE8815E /* Theme.swift */; };
+		6DC3B07CF6E003A6ED3BC29C /* ProgressPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A4EED3092D23E1CC976DF /* ProgressPageView.swift */; };
+		70F4ADF67D85CA83EC73B398 /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D76225773ACA646DC6CCDFF /* ReadingView.swift */; };
+		7B8D90554086F01E6B737ADB /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A88CB60000594BF1BF6214 /* QuizView.swift */; };
+		8BD3E1AD20F9CACCCD8940CF /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28508648334657F26BDF2362 /* SharedComponents.swift */; };
+		91B56C41FF9C1B10857CDC2D /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62072DB893FEB8347FFAAB5C /* CardsView.swift */; };
+		9607EA7AA6DF4ACD2F0889D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276EB8FCF4A01CB0F38FF27 /* Assets.xcassets */; };
+		AA74192873DEE61363ECE6D9 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = E5BB3A62DE72F654D5358D0B /* quotes.json */; };
+		AA86AB9DB93FA4511F6BBF78 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBEE0C0E2680DA88B73162 /* SettingsView.swift */; };
+		CB4757F2E4877C005431D3E4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB569444CC7FBE3E29985687 /* Models.swift */; };
+		CC27475621287C8EB76384CB /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = 1491B3A890CAFC28AC09C423 /* vocab.json */; };
+		E1144C0AB3D1ACF46855890A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBA813E38BE80D9156A2A3 /* AppState.swift */; };
+		E9B9995AE799D4105E88DF27 /* passages.json in Resources */ = {isa = PBXBuildFile; fileRef = A7DD8F006D4EF5D4BAB5C08C /* passages.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03F089CE9A84A2867AD250B2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1491B3A890CAFC28AC09C423 /* vocab.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocab.json; sourceTree = "<group>"; };
+		176CC2DE7AB186AC8AE8815E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1CFDDABB843B0986BEB7FED8 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		28508648334657F26BDF2362 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		462215824DDB4F342AF57D74 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
+		49F4E02AD03D34A8B94A4961 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		4D355D168F8CCC4D6E60052F /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		57FBA813E38BE80D9156A2A3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		62072DB893FEB8347FFAAB5C /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		6D76225773ACA646DC6CCDFF /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
+		81FBEE0C0E2680DA88B73162 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		987D4303AF2406E12CD514BF /* TOEFLPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOEFLPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42B2A90DCE46E897C6C598E /* TOEFLPrepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOEFLPrepApp.swift; sourceTree = "<group>"; };
+		A7DD8F006D4EF5D4BAB5C08C /* passages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = passages.json; sourceTree = "<group>"; };
+		AAFE5FB136CBBEC0FA9F624B /* AuroraBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraBackground.swift; sourceTree = "<group>"; };
+		AB569444CC7FBE3E29985687 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B25B7466A6446DCE90E033D4 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		D099173D084054119967D283 /* PetalsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalsOverlay.swift; sourceTree = "<group>"; };
+		D276EB8FCF4A01CB0F38FF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6A88CB60000594BF1BF6214 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		E5BB3A62DE72F654D5358D0B /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		F18A4EED3092D23E1CC976DF /* ProgressPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPageView.swift; sourceTree = "<group>"; };
+		F699B5CADB8D042C7BFC1BBE /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC981767C62EA833B107403F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B7EC7E0BAE692DD8277810 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A42B2A90DCE46E897C6C598E /* TOEFLPrepApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3C9D7F1ECE6B1C2C05B9A223 = {
+			isa = PBXGroup;
+			children = (
+				D276EB8FCF4A01CB0F38FF27 /* Assets.xcassets */,
+				21B7EC7E0BAE692DD8277810 /* App */,
+				7C16B6A6F376CA507A8CCEDE /* Models */,
+				A928BF2918A1225D6F592C10 /* Views */,
+				9BA497B355F8DBF348E2C232 /* Resources */,
+				5ADE8A4128725EB9150C196B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ADE8A4128725EB9150C196B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				987D4303AF2406E12CD514BF /* TOEFLPrep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C16B6A6F376CA507A8CCEDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57FBA813E38BE80D9156A2A3 /* AppState.swift */,
+				4D355D168F8CCC4D6E60052F /* DataStore.swift */,
+				B25B7466A6446DCE90E033D4 /* Localization.swift */,
+				AB569444CC7FBE3E29985687 /* Models.swift */,
+				462215824DDB4F342AF57D74 /* Speech.swift */,
+				176CC2DE7AB186AC8AE8815E /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BA497B355F8DBF348E2C232 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD8F006D4EF5D4BAB5C08C /* passages.json */,
+				E5BB3A62DE72F654D5358D0B /* quotes.json */,
+				1491B3A890CAFC28AC09C423 /* vocab.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A928BF2918A1225D6F592C10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAFE5FB136CBBEC0FA9F624B /* AuroraBackground.swift */,
+				62072DB893FEB8347FFAAB5C /* CardsView.swift */,
+				F699B5CADB8D042C7BFC1BBE /* DesignSystem.swift */,
+				49F4E02AD03D34A8B94A4961 /* LibraryView.swift */,
+				D099173D084054119967D283 /* PetalsOverlay.swift */,
+				F18A4EED3092D23E1CC976DF /* ProgressPageView.swift */,
+				D6A88CB60000594BF1BF6214 /* QuizView.swift */,
+				6D76225773ACA646DC6CCDFF /* ReadingView.swift */,
+				03F089CE9A84A2867AD250B2 /* RootView.swift */,
+				81FBEE0C0E2680DA88B73162 /* SettingsView.swift */,
+				28508648334657F26BDF2362 /* SharedComponents.swift */,
+				1CFDDABB843B0986BEB7FED8 /* TodayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8B5016A75A02C99E24AB004 /* TOEFLPrep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BD360BA52B5D36E1679933 /* Build configuration list for PBXNativeTarget "TOEFLPrep" */;
+			buildPhases = (
+				CD691BBBE993DA89463DFB43 /* Sources */,
+				EC981767C62EA833B107403F /* Frameworks */,
+				984AA73C6A3518E356174B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOEFLPrep;
+			productName = TOEFLPrep;
+			productReference = 987D4303AF2406E12CD514BF /* TOEFLPrep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4907EFA227030F13220C7AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D8B5016A75A02C99E24AB004 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 908F1EBBD5A941B474F03772 /* Build configuration list for PBXProject "TOEFLPrep" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9D7F1ECE6B1C2C05B9A223;
+			productRefGroup = 5ADE8A4128725EB9150C196B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B5016A75A02C99E24AB004 /* TOEFLPrep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		984AA73C6A3518E356174B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9607EA7AA6DF4ACD2F0889D8 /* Assets.xcassets in Resources */,
+				E9B9995AE799D4105E88DF27 /* passages.json in Resources */,
+				AA74192873DEE61363ECE6D9 /* quotes.json in Resources */,
+				CC27475621287C8EB76384CB /* vocab.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD691BBBE993DA89463DFB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DDBA01A5D88011E2B29F12 /* TOEFLPrepApp.swift in Sources */,
+				E1144C0AB3D1ACF46855890A /* AppState.swift in Sources */,
+				0E39F57513B676BB06FA08DB /* DataStore.swift in Sources */,
+				34363C3798C53FCC67AD6CD3 /* Localization.swift in Sources */,
+				CB4757F2E4877C005431D3E4 /* Models.swift in Sources */,
+				66DC48D43C7046E3F2936509 /* Speech.swift in Sources */,
+				68C4C4416847F002F02BE391 /* Theme.swift in Sources */,
+				02F3527846A66B7FDA1116DB /* AuroraBackground.swift in Sources */,
+				91B56C41FF9C1B10857CDC2D /* CardsView.swift in Sources */,
+				42E807E4CF80951808F03626 /* DesignSystem.swift in Sources */,
+				3E9AECC30C82658171065F16 /* LibraryView.swift in Sources */,
+				0EFFEC644A48E2AC173658B0 /* PetalsOverlay.swift in Sources */,
+				6DC3B07CF6E003A6ED3BC29C /* ProgressPageView.swift in Sources */,
+				7B8D90554086F01E6B737ADB /* QuizView.swift in Sources */,
+				70F4ADF67D85CA83EC73B398 /* ReadingView.swift in Sources */,
+				251DB7183FE72565C7F2E3A6 /* RootView.swift in Sources */,
+				AA86AB9DB93FA4511F6BBF78 /* SettingsView.swift in Sources */,
+				8BD3E1AD20F9CACCCD8940CF /* SharedComponents.swift in Sources */,
+				38E2B36BD4A9E47AC98AB10B /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A4083387826C11B1E72C32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = "AppIcon 1";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NC2VLPC7Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TOEFL Prep";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsMultipleScenes = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavpande.toeflprep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75FD828854AEE4A8ECFCD63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = "AppIcon 1";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NC2VLPC7Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TOEFL Prep";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsMultipleScenes = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavpande.toeflprep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC7A90A0280286577384A6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E8C679FDC8B9A53940B2D2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		908F1EBBD5A941B474F03772 /* Build configuration list for PBXProject "TOEFLPrep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C679FDC8B9A53940B2D2B5 /* Debug */,
+				DC7A90A0280286577384A6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BD360BA52B5D36E1679933 /* Build configuration list for PBXNativeTarget "TOEFLPrep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FD828854AEE4A8ECFCD63C /* Debug */,
+				4A4083387826C11B1E72C32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4907EFA227030F13220C7AA7 /* Project object */;
+}
